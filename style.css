@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 243, 255);
+}
+
+header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo-header {
+    width: 35%;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 15px;
+    height: 800px;
+}
+
+footer {
+    background-color: Black;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.direitos-autorais{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#introducao{
+    display: flex; /* posição */
+    height: 300px;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+#introducao div{
+    width: 70%;
+    padding-right: 200px;
+    padding-left: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+#introducao h2{
+    color: #ff3400;
+    font-size: 40px;
+}
+
+#Dicas{
+    padding-left: 50px;
+    padding-right: 100px;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+#Dicas h2{
+    color: #ff3400;
+    font-size: 40px;
+}
+
+#Dicas h3{
+    font-size: 25px;
+}
+
+#Dicas p{
+    font-size: 18px;
+}
+#Instrumentos{
+    padding-left: 100px;
+    padding-right: 100px ;
+    background-color: #ffffff;
+    height: 1000px;
+}
+
+#Instrumentos h2{
+    margin-top:0;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: #ff3400
+}
+
+.conteudo-Instrumentos{
+    ustify-content: space-between;
+    margin-bottom: 150px;
+} 
+
+#Instrumentos h3{
+    font-size: 30px;
+}
+#Instrumentos p{
+    font-size: 25px;
+    text-align: right;
+}
